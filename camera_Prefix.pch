@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'camera' target in the 'camera' project
+//
+
+#ifdef __OBJC__
+#include <opencv2/core/core.hpp>
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	//#import <opencv/cv.h>
+#endif
